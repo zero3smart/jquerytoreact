@@ -1,0 +1,39 @@
+/* Timeline */
+.scroll {
+  position: fixed;
+  right: 0px;
+}
+
+.img-circle {
+  border-radius: 50% !important;
+}
+
+.scroll:before {
+  position: absolute;
+  left: 50%;
+  top: -15px;
+  content: " ";
+  display: block;
+  width: 3px;
+  height: 120%;
+  margin-left: -1px;
+  background: linear-gradient(to bottom, rgba(213, 213, 213, 0) 0%, #D5D5D5 8%, #D5D5D5 92%, rgba(213, 213, 213, 0) 100%) repeat scroll 0% 0% transparent;
+  z-index: -1;
+}
+
+.btn-outline-primary {
+  width: 3em !important;
+  height: 3em !important;
+  color: white !important;
+  background-color: gray !important;
+  border-color: gray !important;
+  font-size: 0.5em !important;
+}
+
+.btn-outline-primary .fa {
+  margin-left: -0.5em;
+}
+
+.btn-primary {
+  font-size: 1em;
+}

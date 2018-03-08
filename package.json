@@ -1,0 +1,22 @@
+{
+  "name": "matt_test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-event-timeline": "^1.5.1",
+    "react-scripts": "1.1.1",
+    "react-vertical-timeline-component": "^2.0.5",
+    "react-window-size": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
